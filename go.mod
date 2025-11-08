@@ -1,4 +1,4 @@
-module helm.sh/helm/v3
+module helm.sh/helm/v4
 
 go 1.24.0
 
@@ -37,6 +37,7 @@ require (
 	golang.org/x/term v0.34.0
 	golang.org/x/text v0.28.0
 	gopkg.in/yaml.v3 v3.0.1
+	helm.sh/helm/v3 v3.19.0
 	k8s.io/api v0.34.0
 	k8s.io/apiextensions-apiserver v0.34.0
 	k8s.io/apimachinery v0.34.0
